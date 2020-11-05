@@ -1,4 +1,10 @@
 rootProject.name = 'newcars'
+include ':react-native-firebase-push-notifications'
+project(':react-native-firebase-push-notifications').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-firebase-push-notifications/android')
+include ':react-native-firebase-push-notifications'
+project(':react-native-firebase-push-notifications').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-firebase-push-notifications/android')
+include ':react-native-firebase-push-notifications'
+project(':react-native-firebase-push-notifications').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-firebase-push-notifications/android')
 include ':react-native-navigation-bar-color'
 project(':react-native-navigation-bar-color').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-navigation-bar-color/android')
 include ':react-native-navigation-bar-color'

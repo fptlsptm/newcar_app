@@ -82,6 +82,9 @@ target 'newcars' do
   pod 'react-native-webview', :path => '../node_modules/react-native-webview'
   permissions_path = '../node_modules/react-native-permissions/ios'
   pod 'Permission-Camera', :path => "#{permissions_path}/Camera.podspec"
+  pod 'react-native-firebase-push-notifications', :path => '../node_modules/react-native-firebase-push-notifications'
+  pod 'Permission-Notifications', :path => "#{permissions_path}/Notifications.podspec"
+
   target 'newcarsTests' do
     inherit! :complete
     # Pods for testing

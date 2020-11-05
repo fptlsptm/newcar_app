@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-  package="com.newcars">
+  package="com.dmonster.sechain_customer">
 
     <uses-permission android:name="android.permission.INTERNET" />
 

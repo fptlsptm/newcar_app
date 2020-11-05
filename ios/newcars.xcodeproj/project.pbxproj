@@ -12,6 +12,10 @@
 		049F021C24AC83260041CB34 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 049F021B24AC83260041CB34 /* Media.xcassets */; };
 		049F022224AC87B80041CB34 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 049F022124AC87B80041CB34 /* Images.xcassets */; };
 		049F022424AC988D0041CB34 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 049F022324AC988D0041CB34 /* Default-568h@2x.png */; };
+		049F022824BDB9470041CB34 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 049F022724BDB9460041CB34 /* GoogleService-Info.plist */; };
+		049F022924BDB9470041CB34 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 049F022724BDB9460041CB34 /* GoogleService-Info.plist */; };
+		049F022A24BDB9470041CB34 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 049F022724BDB9460041CB34 /* GoogleService-Info.plist */; };
+		049F022B24BDB9470041CB34 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 049F022724BDB9460041CB34 /* GoogleService-Info.plist */; };
 		0AFFC968A806D1C765069C3A /* libPods-newcars-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 10818EA439FA33E950063DFB /* libPods-newcars-tvOS.a */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
@@ -49,6 +53,9 @@
 		049F021B24AC83260041CB34 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
 		049F022124AC87B80041CB34 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = newcars/Images.xcassets; sourceTree = "<group>"; };
 		049F022324AC988D0041CB34 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		049F022724BDB9460041CB34 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		049F022C24BEBA2D0041CB34 /* 세차인.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = "세차인.entitlements"; path = "newcars/세차인.entitlements"; sourceTree = "<group>"; };
+		049F022D24BEBA580041CB34 /* 세차인Debug.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = "세차인Debug.entitlements"; path = "newcars/세차인Debug.entitlements"; sourceTree = "<group>"; };
 		10818EA439FA33E950063DFB /* libPods-newcars-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-newcars-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07F961A680F5B00A75B9A /* 세차인.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "세차인.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = newcars/AppDelegate.h; sourceTree = "<group>"; };
@@ -128,10 +135,13 @@
 		13B07FAE1A68108700A75B9A /* newcars */ = {
 			isa = PBXGroup;
 			children = (
+				049F022D24BEBA580041CB34 /* 세차인Debug.entitlements */,
+				049F022C24BEBA2D0041CB34 /* 세차인.entitlements */,
 				049F022124AC87B80041CB34 /* Images.xcassets */,
 				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.m */,
+				049F022724BDB9460041CB34 /* GoogleService-Info.plist */,
 				13B07FB61A68108700A75B9A /* Info.plist */,
 				13B07FB71A68108700A75B9A /* main.m */,
 				049F021724AC7D610041CB34 /* LaunchScreen.storyboard */,
@@ -296,7 +306,7 @@
 						TestTargetID = 13B07F861A680F5B00A75B9A;
 					};
 					13B07F861A680F5B00A75B9A = {
-						DevelopmentTeam = Z5TVRZKUM5;
+						DevelopmentTeam = QT97FAD4X9;
 						LastSwiftMigration = 1120;
 					};
 					2D02E47A1E0B4A5D006451C7 = {
@@ -336,6 +346,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				049F022924BDB9470041CB34 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -345,6 +356,7 @@
 			files = (
 				049F022224AC87B80041CB34 /* Images.xcassets in Resources */,
 				049F022424AC988D0041CB34 /* Default-568h@2x.png in Resources */,
+				049F022824BDB9470041CB34 /* GoogleService-Info.plist in Resources */,
 				049F021C24AC83260041CB34 /* Media.xcassets in Resources */,
 				049F021824AC7D610041CB34 /* LaunchScreen.storyboard in Resources */,
 			);
@@ -354,6 +366,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				049F022A24BDB9470041CB34 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -361,6 +374,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				049F022B24BDB9470041CB34 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -623,8 +637,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = "newcars/세차인Debug.entitlements";
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = Z5TVRZKUM5;
+				DEVELOPMENT_TEAM = QT97FAD4X9;
 				ENABLE_BITCODE = NO;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"$(inherited)",
@@ -632,12 +647,13 @@
 				);
 				INFOPLIST_FILE = newcars/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 2.0;
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dmonster.Carwash;
 				PRODUCT_NAME = "세차인";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -651,16 +667,18 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = "newcars/세차인.entitlements";
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = Z5TVRZKUM5;
+				DEVELOPMENT_TEAM = QT97FAD4X9;
 				INFOPLIST_FILE = newcars/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 2.0;
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dmonster.Carwash;
 				PRODUCT_NAME = "세차인";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
